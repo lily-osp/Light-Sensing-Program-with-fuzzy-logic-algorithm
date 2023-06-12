@@ -33,26 +33,23 @@ The program follows these steps to determine the brightness level using fuzzy lo
 
 7. **Output Decision**: Based on the crisp output value, make a decision on whether the environment is considered "dark" or "bright". This decision can be used to control an LED or any other suitable output device to reflect the brightness level.
 
-## Code
+## Flowchart 
 
-```cpp
-// Include necessary libraries
-
-// Define constants and variables
-
-// Define fuzzy membership functions
-
-// Define fuzzy rules
-
-// Define input and output variables
-
-// Define the setup function
-
-// Define the loop function
-
-// Define helper functions (if necessary)
-
-// Main program logic
+```mermaid
+graph TD
+  A[Start] --> B[Initialize Serial Communication]
+  B --> C[Read Sensor Values]
+  C --> D[Calculate Membership Values]
+  D --> E[Determine Output]
+  E --> F[Print Input and Output Values]
+  F --> G[Additional Code or Actions]
+  G --> H[Delay]
+  H --> C
+  E --> I{Output is Dark?}
+  I -- Yes --> J[Print dark]
+  I -- No --> K[Print bright]
+  J --> F
+  K --> F
 ```
 
 Replace the placeholders in the code template with your specific implementation. This includes including the necessary libraries, defining constants and variables, fuzzy membership functions, fuzzy rules, input and output variables, setup and loop functions, and any additional helper functions you may need.
