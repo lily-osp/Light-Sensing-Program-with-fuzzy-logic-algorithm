@@ -1,5 +1,7 @@
 # Fuzzy Logic Light Sensing Program for Arduino with 5 LDR Inputs
 
+[![CodeFactor](https://www.codefactor.io/repository/github/1999azzar/simple-fuzzy-logic-light-sensing-program/badge)](https://www.codefactor.io/repository/github/1999azzar/simple-fuzzy-logic-light-sensing-program)
+
 This project demonstrates a fuzzy logic approach for determining the brightness level based on readings from 5 Light Dependent Resistors (LDRs) connected to an Arduino board. By using fuzzy logic, the program can make intelligent decisions and provide a more nuanced output, categorizing the environment as either "dark" or "bright".
 
 ## Requirements
