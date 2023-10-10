@@ -60,3 +60,13 @@ Replace the placeholders in the code template with your specific implementation.
 This project demonstrates the application of fuzzy logic in determining the brightness level based on readings from 5 LDRs connected to an Arduino board. By using fuzzy logic techniques, the program can make more nuanced decisions and provide accurate categorization of the environment as either "dark" or "bright". You can customize and optimize the code to suit your specific requirements, allowing for various applications where light sensing is essential.
 
 Feel free to incorporate your specific implementation details into the code section and make any further modifications as needed.
+
+### Support
+
+You can support me by buy me a coffee if u like to.
+<div align="left">
+<!--   <h4>And you can also support me by <a href="https://www.buymeacoffee.com/azzar" target="_blank">buying me coffee</a></h4> -->
+  <a href="https://www.buymeacoffee.com/azzar" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 42px !important;width: 151.9px !important; margin-top: 50px !important;">
+  </a>
+</div>
